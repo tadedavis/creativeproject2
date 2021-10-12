@@ -29,7 +29,7 @@ function onClick(e) {
       }
       return response.json();
     }).then(function(json) {
-      if(guess === json.full_name || guess === json.name ){
+      if(guess.toLowerCase() === json.full_name.toLowerCase() || guess.toLowerCase() === json.name.toLowerCase() ){
         updateCorrect("Correct");
         populateResult();
         updateAnswer(true);
