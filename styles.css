@@ -1,0 +1,42 @@
+* {
+  padding: 1px;
+}
+
+.main-container {
+  justify-content: center;
+
+}
+
+.mainheader {
+  margin: 5px;
+  background-color: #008B8B;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#buttontwo {
+  width: 25%;
+  margin: 5px;
+}
+
+.mainbody {
+  margin: 5px;
+  text-align: center;
+  justify-content: center
+}
+
+#button {
+  width: 25%;
+  margin: 5px;
+}
+
+.footer {
+    background-color: #008B8B;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    text-align: center;
+    color: white;
+}
